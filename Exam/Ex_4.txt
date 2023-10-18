@@ -1,0 +1,10 @@
+Le tri à bulles est un algorithme long, car il va comparer chaque valeur une par une par rapport a celle voisines.
+
+Pour faire remonter le max jusqu'au bout du tableau, il va falloir le comparer a chaque case par laquelle il va passer.
+
+Pour avoir une idée du temps nécessaire, il nous suffit de prendre le nombre de case et d'en retirer une à chaque case bien placer,
+par exemple pour un tableau de 10 cases, il va falloir 9 + 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1 opérations maximum. Ce qui signifie que pour 
+des tableaux de grandes tailles, cet algorithme nécessite un grand nombre d'opérations.
+
+Cela le rend lent et couteûx en ressource pour le CPU.
+
